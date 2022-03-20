@@ -1,0 +1,61 @@
+body {
+    background-color: #E1D28E;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+}
+
+.containe {
+    background-image: url('./image/fond_tuto.svg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: 'cabin sketch';
+    font-size: 40px;
+    text-align: center;
+    color: #30343f;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    letter-spacing: 3px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
+    color: #30343f;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: auto;
+    font-style: 400;
+}
+
+li {
+    list-style: none;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
+    color: #30343f;
+    font-style: 400;
+}
+
+#logo {
+    position: absolute;
+    right: 44px;
+    top: 14px;
+    width: 45px;
+}
+
+.phrase_accroche {
+    font-family: 'Cabin Sketch', cursif;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    padding: 30px 30px 30px 30px;
+    color: #30343f;
+    margin: 10px 10px 10px 10px;
+    text-align-last: center;
+}

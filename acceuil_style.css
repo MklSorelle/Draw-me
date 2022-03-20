@@ -1,0 +1,201 @@
+    body {
+        background-color: #E1D28E;
+        padding: 0;
+        margin: 0;
+        display: grid;
+    }
+    
+    * {
+        margin: 0;
+        list-style: none;
+    }
+    
+    p {
+        margin-top: -257px;
+    }
+    
+    .text p {
+        font-weight: lighter;
+        color: #30343f;
+        font-size: 23px;
+        font-family: 'cabin sketch';
+        text-align: center;
+    }
+    
+    .text {
+        justify-content: center;
+    }
+    
+    .gallery {
+        position: absolute;
+        bottom: -141px;
+        display: grid;
+        justify-content: center;
+        left: 262px;
+    }
+    
+    h1 {
+        color: #B69098;
+        text-align: center;
+        font-family: 'Cabin Sketch';
+        font-size: 100px;
+        letter-spacing: 10px;
+        padding: 1px 1px;
+        margin-top: -379px;
+        animation: apparition 0.8s ease-out;
+    }
+    
+    @keyframes apparition {
+        from {
+            opacity: 0;
+            transform: translateY(-100px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(Opx);
+        }
+    }
+    
+    .btn {
+        display: grid;
+        grid-template-columns: 0fr 1fr;
+        gap: 136px;
+        margin: 47px 0px 0px 41px;
+    }
+    
+    .text {
+        display: grid;
+        justify-content: center;
+    }
+    
+    .gallery .image-container {
+        display: grid;
+        grid-template-columns: 0fr 1fr;
+        gap: 68px;
+        margin-bottom: -31px;
+    }
+    
+    .gallery .image-container .image {
+        height: 300px;
+        width: 260px;
+        overflow: hidden;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 8px 5px rgba(48, 48, 48, 0.336);
+    }
+    
+    .gallery .image-container .image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .gallery .image-container .image:hover img {
+        transform: scale(1.4);
+    }
+    
+    .action-button {
+        text-decoration: none;
+    }
+    
+    .action-button button {
+        padding: 10px 50px;
+        -webkit-border-radius: 60px;
+        border-radius: 60px;
+        border: none;
+        font-family: 'Cabin Sketch', cursif;
+        font-weight: bolder;
+        font-size: 30px;
+        color: #30343f;
+        text-decoration: none;
+        background-color: #B69098;
+        border-bottom: 5px solid #30343f49;
+        transition: all 0.1s;
+        -webkit-transition: all 0.1s;
+    }
+    
+    .action-button:active button {
+        transform: translate(0px, 5px);
+        -webkit-transform: translate(0px, 5px);
+        border-bottom: 1px solid;
+    }
+    
+    .logo img {
+        width: 45px;
+    }
+    
+    .logo {
+        position: absolute;
+        right: 44px;
+        top: 14px;
+    }
+    
+    .nav {
+        margin-top: 126px;
+    }
+    
+    li {
+        margin: 20px;
+        height: 75px;
+        width: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 150px;
+        box-shadow: 6px 6px 13px #bbae76, -3px -4px 19px #fff6a6;
+        background: #E1D28E;
+    }
+    
+    i {
+        font-size: 1.5em;
+        color: #30343f;
+    }
+    
+    li:hover {
+        box-shadow: inset 9px 9px 17px #e1d28eb7, inset -9px -9px 17px #fff6a6;
+    }
+    
+    @media screen and ( min-width:1600px) {
+        .gallery .image-container {
+            display: grid;
+            grid-template-columns: 0fr 1fr;
+            gap: 68px;
+            position: absolute;
+            top: -734%;
+            left: 59%;
+        }
+        .btn {
+            display: grid;
+            grid-template-columns: 0fr 1fr;
+            gap: 136px;
+            margin: 49px 0px 0px 41px;
+            position: relative;
+            top: -435%;
+            left: 58%;
+        }
+    }
+    
+    @media screen and ( max-width:1034px) {
+        .gallery .image-container {
+            grid-template-columns: 1fr;
+            position: absolute;
+            top: -376px;
+            left: -23px;
+            gap: 13px;
+        }
+        .gallery {
+            padding-left: 100px;
+        }
+        h1 {
+            grid-column: 1;
+        }
+        .btn {
+            grid-template-columns: 1fr;
+            gap: 41px;
+            padding-left: 49px;
+            position: absolute;
+            bottom: -507px;
+            left: -69px;
+        }
+    }
