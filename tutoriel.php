@@ -16,7 +16,7 @@
 <body>
     <div class="containe">
 
-        <a href="/Site_Draw_me/navigation_intro.php"> <img id="logo" src="./image/Logo_final-draw_me.png"></a>
+        <a href="/index.php"> <img id="logo" src="./image/Logo_final-draw_me.png"></a>
         <p class=" phrase_accroche">Decouvre toutes les fonctionalites de Draw Me:</p> <hr width="300px" color="#0000">
 
 

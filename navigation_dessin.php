@@ -14,7 +14,7 @@
       </label>
         <div class="sidebar">
 
-            <a href="/navigation_intro.php">
+            <a href="/index.php">
                 <header>Accueil</header>
             </a>
             <ul>
@@ -43,7 +43,7 @@
                 </li>
 
                 <li class="btnim">
-                    <a href="/Site_Draw_me/filename.png">
+                    <a href="/filename.png">
                         <i class="fa-solid fa-file-export"></i>
                         <button type="submit" id="btnimg" >Voir l'image</button>
                         </a>

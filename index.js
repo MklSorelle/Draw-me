@@ -69,7 +69,7 @@ BtnSave.addEventListener("click", function() {
     );
 
     // le programme de la requete est dans l'URI
-    const uri = '/Site_Draw_me/codeSave.php';
+    const uri = '/codeSave.php';
 
     //le true demande une requete asynchrone
     // c'est la valeur par défaut
@@ -88,7 +88,7 @@ BtnSave.addEventListener("click", function() {
 // chargement du dessin
 function functload() {
     let requete = new XMLHttpRequest()
-    requete.open("GET", "/Site_Draw_me/load.php", false)
+    requete.open("GET", "/load.php", false)
     requete.send()
 
     let monCode = requete.response
