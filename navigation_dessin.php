@@ -14,7 +14,7 @@
       </label>
         <div class="sidebar">
 
-            <a href="/Site_Draw_me/navigation_intro.php">
+            <a href="/navigation_intro.php">
                 <header>Accueil</header>
             </a>
             <ul>

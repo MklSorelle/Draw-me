@@ -26,10 +26,10 @@
 
         </div>
         <div class="btn">
-            <a href="http://localhost/Site_Draw_me/navigation_dessin.php" class="action-button">
+            <a href="/navigation_dessin.php" class="action-button">
                 <button>DESSINER</button>
             </a>
-            <a href="http://localhost/Site_Draw_me/tutoriel.php" class="action-button">
+            <a href="/tutoriel.php" class="action-button">
                 <button>TUTORIEL</button>
             </a>
         </div>
