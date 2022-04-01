@@ -28,10 +28,10 @@
     
     .gallery {
         position: absolute;
-        bottom: -141px;
+        bottom: -28px;
         display: grid;
         justify-content: center;
-        left: 262px;
+        left: 375px;
     }
     
     h1 {
@@ -59,8 +59,8 @@
     .btn {
         display: grid;
         grid-template-columns: 0fr 1fr;
-        gap: 136px;
-        margin: 47px 0px 0px 41px;
+        gap: 105px;
+        margin: 50px 0px 0px 37px;
     }
     
     .text {
@@ -168,8 +168,8 @@
         .btn {
             display: grid;
             grid-template-columns: 0fr 1fr;
-            gap: 136px;
-            margin: 49px 0px 0px 41px;
+            gap: 105px;
+            margin: 50px 0px 0px 37px;
             position: relative;
             top: -435%;
             left: 58%;
